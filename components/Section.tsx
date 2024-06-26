@@ -2,8 +2,8 @@ import classNames from "classnames";
 import React from "react";
 
 export enum SectionVariant {
-  Primary = "bg-primary-bg dark:bg-gray-800",
-  Secondary = "bg-white dark:bg-gray-700",
+  Primary = "bg-bg-400 dark:bg-gray-800",
+  Secondary = "bg-bg-500 dark:bg-gray-700",
 }
 
 const Section = ({

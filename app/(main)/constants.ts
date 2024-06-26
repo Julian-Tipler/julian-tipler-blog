@@ -9,12 +9,9 @@ export type LinkItemProps = {
 
 export const LINK_ITEMS: Array<LinkItemProps> = [
   { name: "Home", icon: FiHome, href: "/" },
-  { name: "Features", icon: FiCompass, href: "#features" },
-  { name: "Pricing", icon: FiSettings, href: "#pricing" },
-  { name: "Custom Solutions", icon: FiSettings, href: "#custom" },
-  { name: "Contact", icon: FiSettings, href: "#contact" },
+  { name: "Blog", icon: FiCompass, href: "/blog" },
+  { name: "About me", icon: FiSettings, href: "/me" },
+  { name: "Contact", icon: FiSettings, href: "/contact" },
 ];
 
 export const SUPPORT_EMAIL = "your-support-email@company.com";
-
-

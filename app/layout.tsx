@@ -21,6 +21,11 @@ export default function RootLayout({
         <head>
           <title></title>
           <meta name="description" content={""} />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+          />
         </head>
         <body className={inter.className}>{children}</body>
       </html>

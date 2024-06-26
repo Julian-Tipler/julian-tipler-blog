@@ -5,10 +5,10 @@ import React from "react";
 export const Hero = () => {
   return (
     <Section id="home" variant={SectionVariant.Secondary}>
-      <div className="gap-40 py-8 px-4 mx-auto max-w-screen-xl grid grid-cols-1 lg:grid-cols-2 lg:py-36 lg:px-6 justify-items-center">
+      <div className="flex py-8 px-4 mx-auto max-w-screen-xl lg:py-36 lg:px-6 items-center justify-center">
         <div className="flex flex-col justify-center items-center md:items-start font-light sm:text-lg">
           <h1 className="mb-4 text-6xl font-medium text-gray-900 dark:text-white leading-tight">
-            Your website needs a copilot
+            Sign up for my blog
           </h1>
           <p className="font-light text-gray-500 dark:text-gray-400">
             WisePilot is an AI chatbot that helps users navigate your website.
